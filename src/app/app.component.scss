@@ -1,0 +1,23 @@
+ul {
+  background: #cc483a;
+  margin: 0;
+  padding: 0;
+  /* 使用 FlexBox 布局 */
+  display: flex;
+  flex-direction: row;
+  /* 将屏幕剩余空间平均分布于各子元素之间 */
+  justify-content: space-between;
+  li{
+    /* 去掉列表的 bullet */
+    display: inline-block;
+    margin: 10px;
+    /* 内容不折行显示 */
+    white-space: nowrap;
+    a{
+      /* 不显示下划线 */
+      text-decoration: none;
+    }
+  }
+}
+
+

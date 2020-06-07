@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<app-scrollable-top
+        [menus]="topMenus"
+        [backgroundColor]="'red'"
+        [titleColor]="'#fff'"
+        activeColor="yellow"
+        indicatorColor="yellow"
+        (tabSelectd)="menuSelect($event)">
+</app-scrollable-top>
+<!--<app-image-slider [sliders]="imageSliders" #imageSlider></app-image-slider>-->
+<app-image-slider [sliders]="imageSliders"></app-image-slider>
+<!--<app-horizontal-grid [(username)]="username"></app-horizontal-grid>-->
+<app-horizontal-grid [(username)]="username"></app-horizontal-grid>
+<h1>{{username}}</h1>
+
